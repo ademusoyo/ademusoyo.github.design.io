@@ -38,10 +38,10 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter stylish', // <title>
+  siteTitle: 'Ademusoyo | Design Portfolio', // <title>
   ...
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Ademusoyo',
+  lastName: 'Awosika-Olumo',
   // social
   socialLinks: [
     {

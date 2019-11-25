@@ -21,7 +21,7 @@ export default function Footer() {
           })}
         </ul>
         <p className="text-muted small mb-0">
-          Copyright &copy; Gatsby Starter Stylish
+          Copyright &copy; 2020 Ademusoyo Awosika-Olumo
         </p>
       </div>
     </footer>

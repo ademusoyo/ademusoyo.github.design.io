@@ -41,7 +41,11 @@ a {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $white !important;
+}
+
+.bg-accent {
+  background-color: $accent !important;
 }
 
 .text-primary {
