@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../SectionHeader'
-import p1 from '../../assets/images/magneg-nobg.png';
+import p1 from '../../assets/images/magneg-iphone.gif';
 
 
 export default function MagnegFinal() {
