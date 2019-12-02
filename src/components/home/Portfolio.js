@@ -13,6 +13,19 @@ export default function Portfolio() {
         <h2 className="mb-5">Recent Projects</h2>
       </div>
       <div className="row no-gutters">
+      <div className="col-lg-6">
+          <a className="portfolio-item" href="/#">
+            <span className="caption">
+              <span className="caption-content">
+                <h2>Coming Soon</h2>
+                <p className="mb-0">
+                MacScientists
+                </p>
+              </span>
+            </span>
+            <img className="img-fluid" src={p4} alt="macscientist-mockups" style={{opacity: "0.4"}} />
+          </a>
+        </div>
         <div className="col-lg-6">
           <a className="portfolio-item" href="/#">
             <span className="caption">
@@ -27,7 +40,7 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="col-lg-6">
-          <a className="portfolio-item" href="/#">
+          <a className="portfolio-item" href="/travelix">
             <span className="caption">
               <span className="caption-content">
                 <h2>Travelix</h2>
@@ -37,19 +50,6 @@ export default function Portfolio() {
               </span>
             </span>
             <img className="img-fluid" src={p3} alt="travelix-mockups" style={{opacity: "0.4"}} />
-          </a>
-        </div>
-        <div className="col-lg-6">
-          <a className="portfolio-item" href="/#">
-            <span className="caption">
-              <span className="caption-content">
-                <h2>MacScientists</h2>
-                <p className="mb-0">
-                MacScientists is a platform committed to uplifting women of color and changing the face of STEM.
-                </p>
-              </span>
-            </span>
-            <img className="img-fluid" src={p4} alt="macscientist-mockups" style={{opacity: "0.4"}} />
           </a>
         </div>
         <div className="col-lg-6">

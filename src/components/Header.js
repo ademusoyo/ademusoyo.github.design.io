@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomeNavItems from './nav/HomeNavItems';
 import MagnegNavItems from './nav/MagnegNavItems';
+import TravelixNavItems from './nav/TravelixNavItems'
 
 export default class Header extends Component {
   constructor(props) {
@@ -36,6 +37,10 @@ export default class Header extends Component {
           {
             this.props.id === 'magneg' &&
             <MagnegNavItems openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
+          }
+          {
+            this.props.id === 'travelix' &&
+            <TravelixNavItems openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
           }
         </nav>
       </>

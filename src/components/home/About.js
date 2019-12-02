@@ -8,7 +8,7 @@ export default function About() {
     id="about">
     <div className="container">
       <div className="content-section-heading">
-        <h2 className="text-accent mb-5">About Me</h2>
+        <h3 className="text-primary mb-5">About Me</h3>
       </div>
       <div className="row">
         <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">

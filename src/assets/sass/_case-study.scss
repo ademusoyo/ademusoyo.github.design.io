@@ -6,8 +6,12 @@
 #magneg{
     background: url('../images/magneg.png');
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
+}
+
+#travelix{
+    background: url('../images/travelix-nobg.png');
+    background-position: center center;
 }
 
 .layer{
@@ -18,7 +22,7 @@
 }
 
 .section-content{
-    padding: 80px;
+    padding: 100px;
 }
 
 .content {
