@@ -481,6 +481,9 @@ mark,
   height: auto;
 }
 
+.transparent{
+  opacity: 0.5;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

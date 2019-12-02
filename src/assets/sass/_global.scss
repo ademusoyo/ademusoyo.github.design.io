@@ -21,7 +21,8 @@ body {
 
 .content-section-heading {
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
   }
   h3 {
     font-size: 1rem;
@@ -36,7 +37,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.font-lighter{
+  font-weight: 300;
+}
+
+.emphasis{
+  color: $accent;
+  font-weight: 600;
 }
 
 .text-faded {
@@ -90,4 +101,8 @@ h6 {
   &.show {
     display: inline-block;
   }
+}
+
+.text-tertiary {
+  color: $tertiary;
 }

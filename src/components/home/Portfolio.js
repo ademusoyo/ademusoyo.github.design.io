@@ -1,15 +1,15 @@
 import React from 'react';
-import p1 from '../assets/images/magneg.png';
-import p2 from '../assets/images/coming-soon.jpg';
-import p3 from '../assets/images/travelix.png';
-import p4 from '../assets/images/macscientists.png';
+import p1 from '../../assets/images/magneg.png';
+import p2 from '../../assets/images/coming-soon.jpg';
+import p3 from '../../assets/images/travelix.png';
+import p4 from '../../assets/images/macscientists.png';
 
 export default function Portfolio() {
   return (
     <section className="content-section bg-accent"  id="portfolio">
     <div className="container">
       <div className="content-section-heading text-center">
-        <h3 className="text-white mb-0">Portfolio</h3>
+        <h3 className="text-tertiary mb-0">Portfolio</h3>
         <h2 className="mb-5">Recent Projects</h2>
       </div>
       <div className="row no-gutters">
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 </p>
               </span>
             </span>
-            <img className="img-fluid" src={p3} alt="travelix-mockups" style={{opacity: '0.5'}} />
+            <img className="img-fluid" src={p3} alt="travelix-mockups" style={{opacity: "0.4"}} />
           </a>
         </div>
         <div className="col-lg-6">
@@ -49,11 +49,11 @@ export default function Portfolio() {
                 </p>
               </span>
             </span>
-            <img className="img-fluid" src={p4} alt="macscientist-mockups" style={{opacity: '0.5'}} />
+            <img className="img-fluid" src={p4} alt="macscientist-mockups" style={{opacity: "0.4"}} />
           </a>
         </div>
         <div className="col-lg-6">
-          <a className="portfolio-item" href="/#">
+          <a className="portfolio-item" href="/magneg">
             <span className="caption">
               <span className="caption-content">
                 <h2>Magneg</h2>
@@ -62,7 +62,7 @@ export default function Portfolio() {
                 </p>
               </span>
             </span>
-            <img className="img-fluid" src={p1} alt="magneg-mockups" style={{opacity: '0.5'}} />
+            <img className="img-fluid" src={p1} alt="magneg-mockups" style={{opacity: "0.4"}} />
           </a>
         </div>
       </div>

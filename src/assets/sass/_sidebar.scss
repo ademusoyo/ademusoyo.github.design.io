@@ -85,7 +85,7 @@
 
   text-align: center;
 
-  color: $white;
+  color: $white !important;
   background: fade-out($gray-800, .5);
 
   line-height: 50px;

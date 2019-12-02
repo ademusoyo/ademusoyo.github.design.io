@@ -1,0 +1,22 @@
+/* About Page */
+
+.about-container{
+    padding: 130px;
+  }
+  
+.about-header{
+    border-bottom: .25em dotted;
+    border-color: $primary;
+    width: 30%;
+}
+
+.content-section-small {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .about-body {
+      font-size: 20px;
+      text-align: left;
+      margin-bottom: .5em;
+  }

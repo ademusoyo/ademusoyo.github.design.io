@@ -1,0 +1,36 @@
+.section-header{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#magneg{
+    background: url('../images/magneg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer{
+    background-color: rgba(48, 134, 149, 0.8);;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section-content{
+    padding: 80px;
+}
+
+.content {
+    margin: 3em 10em;
+}
+
+.pallette {
+    height: 250px;
+    border-radius: 50%;
+    background-color: $primary;
+}
+
+.space {
+    margin-left: 80px
+  }

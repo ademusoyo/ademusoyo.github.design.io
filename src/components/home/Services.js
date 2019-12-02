@@ -3,11 +3,11 @@ import React from 'react';
 export default function Services() {
   return (
     <section
-    className="content-section bg-primary text-center"
+    className="content-section bg-secondary text-center"
     id="services">
     <div className="container">
       <div className="content-section-heading">
-        <h3 className="text-secondary mb-0">Services</h3>
+        <h3 className="text-primary mb-0">Services</h3>
         <h2 className="mb-5">What I do</h2>
       </div>
       <div className="row">

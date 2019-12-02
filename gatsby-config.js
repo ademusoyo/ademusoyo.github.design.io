@@ -20,5 +20,24 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`300`, `400`, `500`, `600`, `700`, `800`]
+          },
+          {
+            family: `Open Sans Condensed`,
+            variants: [`300`, `700`]
+          },
+          {
+            family: `Didact Gothic`,
+            variants: `400`
+          }
+        ],
+      },
+    }
   ],
 };
