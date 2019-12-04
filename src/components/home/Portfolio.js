@@ -45,7 +45,7 @@ export default function Portfolio() {
               <span className="caption-content">
                 <h2>Travelix</h2>
                 <p className="mb-0">
-                A monthly newsletter that empowers you to discover new places and dream up your next travel destination.
+                Travelix empowers you to discover new places and dream up your next travel destination.
                 </p>
               </span>
             </span>
