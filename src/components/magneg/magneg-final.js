@@ -25,7 +25,7 @@ export default function MagnegFinal() {
                             
                             </div>
                             <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
-                                <img className="img-fluid space" src={p1} alt="magneg-iphone-images" />
+                                <img className="img-fluid" src={p1} alt="magneg-iphone-images" />
                             </div>
                         </div>
 

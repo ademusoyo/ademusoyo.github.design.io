@@ -1,5 +1,4 @@
 import React from 'react';
-import SectionHeader from '../SectionHeader'
 import p1 from '../../assets/images/travelix-one.png';
 
 
