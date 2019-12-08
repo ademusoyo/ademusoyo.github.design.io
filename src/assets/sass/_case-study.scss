@@ -1,6 +1,7 @@
 .section-header{
     text-align: center;
     vertical-align: middle;
+    
 }
 
 #magneg{
@@ -9,9 +10,13 @@
     background-size: cover;
 }
 
-#travelix{
-    background: url('../images/travelix-nobg.png');
-    background-position: center center;
+.section-heading{
+    border-bottom: .1em solid;
+    border-color: $accent;
+}
+
+.section-sub-heading {
+    text-transform: uppercase;
 }
 
 .layer{
@@ -22,7 +27,7 @@
 }
 
 .section-content{
-    padding: 100px;
+    padding: 0px 100px;
 }
 
 .content {
