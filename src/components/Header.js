@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import HomeNavItems from './nav/HomeNavItems';
 import MagnegNavItems from './nav/MagnegNavItems';
-import TravelixNavItems from './nav/TravelixNavItems'
+import TravelixNavItems from './nav/TravelixNavItems';
+import SocietyNavItems from './nav/SocietyNavItems';
 
 export default class Header extends Component {
   constructor(props) {
@@ -41,6 +42,10 @@ export default class Header extends Component {
           {
             this.props.id === 'travelix' &&
             <TravelixNavItems openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
+          }
+          {
+            this.props.id === 'society' &&
+            <SocietyNavItems openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
           }
         </nav>
       </>

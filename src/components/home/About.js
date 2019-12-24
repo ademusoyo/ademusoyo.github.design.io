@@ -1,5 +1,5 @@
 import React from 'react';
-import p1 from '../../assets/images/soyo-headshot.jpg';
+import p1 from '../../assets/images/soyo10.jpg';
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className="row">
         <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
-        <img className="img-fluid" src={p1} alt="soyo-headshot" style={{paddingTop: "15px"}} />
+        <img className="img-fluid" src={p1} alt="soyo-headshot" style={{paddingTop: "15px", maxWidth: "360px"}} />
         </div>
         <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
         <div className="about-body">

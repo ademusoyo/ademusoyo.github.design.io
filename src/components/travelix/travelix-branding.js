@@ -5,7 +5,7 @@ import p2 from '../../assets/images/travelix-typography.png';
 import p3 from '../../assets/images/travelix-mind-map.jpeg';
 
 
-export default function MagnegBranding() {
+export default function TravelixBranding() {
     return(
         <section id="branding">
             <SectionHeader heading="Banding"
@@ -30,7 +30,7 @@ export default function MagnegBranding() {
                             <p>I wanted Travelix to exude some sense of vibrancy while also being very minimalistic. 
                             The red and orange colors give off the sense of adventure while the brown/tannish colors 
                             give that base of calmness and reliability.</p>
-                            <img className="img-fluid space" src={p1} alt="travelix color palette" />
+                            <img className="img-fluid" src={p1} alt="travelix color palette" />
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ export default function MagnegBranding() {
                             
                             </div>
                             <div className="col-lg-6 col-md-6 mt-5 mb-lg-0">
-                                <img className="img-fluid space" src={p2} alt="travelix typography" />
+                                <img className="img-fluid" src={p2} alt="travelix typography" />
                             </div>
                         </div>
 

@@ -27,12 +27,12 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="col-lg-6">
-          <a className="portfolio-item" href="/#">
+          <a className="portfolio-item" href="/society">
             <span className="caption">
               <span className="caption-content">
-                <h2>Coming Soon</h2>
+                <h2>Society x Tech</h2>
                 <p className="mb-0">
-                  Society x Tech
+                  A website for a monthly newsletter.
                 </p>
               </span>
             </span>
