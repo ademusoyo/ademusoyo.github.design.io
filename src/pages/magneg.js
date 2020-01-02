@@ -7,6 +7,7 @@ import MagnegTop from '../components/magneg/magneg-top';
 import MagnegOverview from '../components/magneg/magneg-overview';
 import MagnegBranding from '../components/magneg/magneg-branding';
 import MagnegFinal from '../components/magneg/magneg-final'
+import ScrollToTop from '../components/ScrollToTop';
 
 
 
@@ -19,6 +20,7 @@ const MagnegCaseStudyPage = () => (
         <MagnegBranding />
         <MagnegFinal />
         <Footer />
+        <ScrollToTop />
       </Layout>
 
    

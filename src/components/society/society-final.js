@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionHeader from '../SectionHeader'
-import p1 from '../../assets/images/travelix-nobg.png';
 
 
 export default function Society() {
@@ -10,8 +9,7 @@ export default function Society() {
                     subheading=""
                     imageId="travelix" />
                     <div className="content">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                
                             <h2>
                                 Final Website
                             </h2>
@@ -20,12 +18,6 @@ export default function Society() {
                             <a className="btn btn-primary btn-xl" href="https://www.societyxtech.com" target="_blank" rel="noreferrer noopener">
                                 Visit Website
                             </a>
-                            
-                            </div>
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
-                                <img className="img-fluid" src={p1} alt="travelix-iphone-images" />
-                            </div>
-                        </div>
 
                     </div>
 

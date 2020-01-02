@@ -8,11 +8,10 @@ export default function MagnegBranding() {
     return(
         <section id="branding">
             <SectionHeader heading="Banding"
-                    subheading="Logo & Color"
+                    subheading="Logo, Naming, & Color"
                     imageId="magneg" />
-                    <div className="content">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                        <div className="case-study-grid">
+                            <div>
                             <h2>
                             Logo & Naming
                             </h2>
@@ -21,10 +20,12 @@ export default function MagnegBranding() {
                                 We wanted to use an icon that represents attraction because the aim is for people to be drawn to use Magneg instead of other cloud-sharing services. 
                                 When I think of attraction, I think of magnets. 
                                 We chose to use something that was a play on the word magnet, and thus Magneg was born.</p>
-                                <img className="img-fluid" src={p2} alt="magneg logo sketches" />
                             
                             </div>
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                            <div>
+                            <img className="case-study-image-2" src={p2} alt="magneg logo sketches" />
+                            </div>
+                            <div>
                                 <h2>
                                 
                                 Branding
@@ -32,11 +33,11 @@ export default function MagnegBranding() {
                                 <p>
                                 Before jumping into the design, we wanted to determine the overall look and feel for the app. We wanted it to be colorful, but also present a very minimalistic look and feel for the design. We chose to use more cool colors that symbolize reliability and trust within the platform.
                                 </p>
+                                </div>
+                            <div>
                                 <img className="img-fluid" src={p1} alt="magneg-color-palette" />
                             </div>
                         </div>
-
-                    </div>
 
 
         </section>

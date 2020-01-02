@@ -63,3 +63,23 @@ a {
 .text-accent {
   color: $accent !important;
 }
+
+.container {
+  width: 80% !important;
+  padding-right: 90px !important;
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 100% !important; 
+    padding-right: 0px !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  .img-fluid {
+    padding-right: 10px !important;
+  }
+}

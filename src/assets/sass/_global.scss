@@ -106,3 +106,18 @@ h6 {
 .text-tertiary {
   color: $tertiary;
 }
+
+//grid 
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import p1 from '../../assets/images/magneg.png';
-import p2 from '../../assets/images/coming-soon.jpg';
+import p2 from '../../assets/images/societyxtech.png';
 import p3 from '../../assets/images/travelix.png';
 import p4 from '../../assets/images/macscientists.png';
 
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 </p>
               </span>
             </span>
-            <img className="img-fluid" src={p2} alt="" />
+            <img className="img-fluid" src={p2} alt="society-tech-mockups" style={{opacity: "0.4"}} />
           </a>
         </div>
         <div className="col-lg-6">

@@ -4,6 +4,15 @@
     
 }
 
+.case-study-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    grid-row-gap: 5em;
+    margin: 5em 10em 2em 10em;
+  }
+  
+
 #magneg{
     background: url('../images/magneg.png');
     background-position: center center;
@@ -41,5 +50,68 @@
 }
 
 .space {
-    margin-left: 11rem
+    margin-left: 11rem;
+    margin-top: 4em;
+    width: 100%;
   }
+
+  .case-study-image, .case-study-image-2{
+    margin-top: 3em;
+  }
+
+  @media (max-width: 768px) {
+    .space {
+        margin-left: 6em;
+        margin-top: 7em;
+    }
+
+    .move-left-10 {
+        margin-left: 10em;
+        margin-bottom: 5em;
+    }
+
+    .case-study-image {
+        width: 100%;
+    }
+
+    .case-study-grid {
+        grid-template-columns: 1fr;
+        margin: 4em 5em;
+      }
+
+    .content {
+        margin: 5em;
+    }
+  }
+
+  @media (max-width: 414px) {
+      .space {
+        margin-left: .5em;
+        margin-top: 0em;
+        width: 70%;
+      }
+
+      .content {
+         margin-left: 7em;
+     }
+
+     .case-study-image {
+         width: 200%;
+         margin-left: -5em;
+     }
+
+     .case-study-image-2 {
+         width: 150%;
+         margin-left: -2em;
+     }
+
+     .section-header {
+         width: 100%;
+     }
+
+     .move-left-10 {
+         margin-left: 0;
+     }
+  }
+
+

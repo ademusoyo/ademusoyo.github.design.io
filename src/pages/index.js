@@ -26,7 +26,6 @@ const IndexPage = () => (
             Email Me
           </a>
       </div>
-      <div className="overlay"></div>
     </header>
     <About />
     <Services />

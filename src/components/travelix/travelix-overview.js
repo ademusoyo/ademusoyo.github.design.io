@@ -3,15 +3,15 @@ import SectionHeader from '../SectionHeader'
 import p1 from '../../assets/images/travelix-iphone.png';
 
 
-export default function TravelixOverview() {
+export default function TravelixOverview() { 
     return(
         <section id="overview">
             <SectionHeader heading="Overview"
                     subheading=""
                     imageId="travelix" />
-                    <div className="content">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+        
+                        <div className="case-study-grid">
+                            <div>
                             <h2>
                             Problem
                             </h2>
@@ -31,12 +31,10 @@ export default function TravelixOverview() {
                             </ul>
                             
                             </div>
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                            <div>
                                 <img className="img-fluid" src={p1} alt="travelix-iphone-images" />
                             </div>
                         </div>
-
-                    </div>
 
 
         </section>

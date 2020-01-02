@@ -11,31 +11,31 @@ export default function TravelixBranding() {
             <SectionHeader heading="Banding"
                     subheading="Logo & Naming, Color, & Typography"
                     imageId="travelix" />
-                    <div className="content">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                        <div className="case-study-grid">
+                            <div>
                             <h2>
                             Logo & Naming
                             </h2>
                             <p>I chose the name Travelix as a play on the word Travel and List. 
                                 When you're planning a trip, you're typically making a list of places you want to travel. 
                                 I did a mind mapping excercise to help get ideas on different names.</p>
+                            </div>
+                            <div>
                                 <img className="img-fluid" src={p3} alt="travelix mind map" />
                             
                             </div>
-                            <div className="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                            <div>
                             <h2>
                             Branding
                             </h2>
                             <p>I wanted Travelix to exude some sense of vibrancy while also being very minimalistic. 
                             The red and orange colors give off the sense of adventure while the brown/tannish colors 
                             give that base of calmness and reliability.</p>
+                            </div>
+                            <div>
                             <img className="img-fluid" src={p1} alt="travelix color palette" />
                             </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 mt-5 mb-lg-0">
+                            <div>
                             <h2>
                             Typography
                             </h2>
@@ -44,13 +44,10 @@ export default function TravelixBranding() {
                                 San-Serif font Josefin Sans to create a vibrant yet minimalistic look and feel.</p>
                             
                             </div>
-                            <div className="col-lg-6 col-md-6 mt-5 mb-lg-0">
+                            <div>
                                 <img className="img-fluid" src={p2} alt="travelix typography" />
                             </div>
                         </div>
-
-                    </div>
-
 
         </section>
     );
