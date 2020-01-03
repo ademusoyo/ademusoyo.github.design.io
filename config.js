@@ -27,11 +27,11 @@ module.exports = {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/ademusoyo/',
     },
-    {
-      icon: 'icon-social-pinterest',
-      name: 'Pinterest',
-      url: 'https://www.pinterest.com/ademusoyo_/'
-    },
+    // {
+    //   icon: 'icon-social-pinterest',
+    //   name: 'Pinterest',
+    //   url: 'https://www.pinterest.com/ademusoyo_/'
+    // },
   ],
   email: 'ademusoyo@gmail.com',
 };
