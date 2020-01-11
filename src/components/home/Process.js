@@ -18,7 +18,7 @@ export default function Process() {
         </div>
         <div className="col-lg-3 col-md-4 mb-5 mb-lg-0">
             <h2 className="font-lighter">.02</h2>
-            <h4 className="font-lighter text-accent">PROPSAL</h4>
+            <h4 className="font-lighter text-accent">PROPOSAL</h4>
             <p>Once I have an understanding of your problem, I provide you with a proposal of the steps needed to reach your solution. 
                 Once we're in agreement, we can begin the work.</p>
         </div>
