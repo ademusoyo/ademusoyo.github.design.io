@@ -33,5 +33,5 @@ module.exports = {
     //   url: 'https://www.pinterest.com/ademusoyo_/'
     // },
   ],
-  email: 'ademusoyo@gmail.com',
+  email: 'info@ademusoyo.co',
 };

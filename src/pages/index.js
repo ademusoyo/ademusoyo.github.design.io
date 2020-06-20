@@ -22,7 +22,7 @@ const IndexPage = () => (
         <h4 className="mb-5 font-lighter">
          {config.subHeading}
         </h4>
-          <a className="btn btn-primary btn-xl" href="mailto:ademusoyo@gmail.com?subject=Design">
+          <a className="btn btn-primary btn-xl" href="mailto:info@ademusoyo.co?subject=Design">
             Email Me
           </a>
       </div>
